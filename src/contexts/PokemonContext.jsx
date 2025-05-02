@@ -39,6 +39,7 @@ export const PokemonProvider = ({ children }) => {
       value={{
         loading: state.loading,
         error: state.error,
+        allPokemon: state.pokemon,
         search: state.filters.search,
         typeFilter: state.filters.typeFilter,
         sortOption: state.filters.sortOption,

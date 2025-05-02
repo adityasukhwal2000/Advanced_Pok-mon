@@ -3,9 +3,9 @@ import { PokemonContext } from "../contexts/PokemonContext";
 import PokemonCard from "../components/PokemonCard";
 
 const FavoritesPage = () => {
-  const { favorites, currentPokemon } = useContext(PokemonContext);
+  const { favorites, allPokemon } = useContext(PokemonContext);
 
-  const favoritePokemon = currentPokemon.filter(
+  const favoritePokemon = allPokemon.filter(
     (pokemon) => favorites && favorites.includes(pokemon.id)
   );
 
