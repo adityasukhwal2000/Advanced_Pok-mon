@@ -1,0 +1,164 @@
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+}
+
+.back-link {
+  display: inline-block;
+  margin-bottom: 1rem;
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
+
+.detail1 {
+  display: flex;
+  justify-content: center;
+  gap: 15rem;
+  /* align-items: center; */
+}
+
+.detail-header {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 2rem;
+  background-color: #c1d9f3;
+  padding: 7rem;
+  border-radius: 1rem;
+  border: 3px solid white;
+  box-shadow: rgba(0, 0, 0, 0.05) 0 0.6rem 2.4rem 0,
+    rgba(0, 0, 0, 0.08) 0 0 0 0.1rem;
+}
+
+.abilities-section {
+  margin-top: 6rem;
+
+  & ul {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    gap: 1rem;
+  }
+  & button {
+    text-transform: capitalize;
+    text-align: left;
+    padding: 1rem;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    font-size: 1.7rem;
+    border-radius: 1rem;
+    text-transform: capitalize;
+    text-align: left;
+    padding: 1rem;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    font-size: 1.7rem;
+    border-radius: 1rem;
+    background: #f1e1f7;
+    border: none;
+  }
+}
+
+.detail-image {
+  width: 100%;
+}
+
+.detail-name {
+  text-transform: capitalize;
+  font-size: 5rem;
+  color: #333;
+  margin: 3rem 0;
+}
+
+.detail-section {
+  margin: 2rem 0;
+
+  & p {
+    max-width: 52rem;
+  }
+}
+
+.detail-section h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #444;
+}
+
+.stats-list,
+.scrollable-list,
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.stats-list li {
+  padding: 0.25rem 0;
+}
+
+.scrollable-list {
+  max-height: 200px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  padding: 0.5rem;
+  background-color: #f9f9f9;
+}
+
+.scrollable-list li {
+  padding: 0.2rem 0;
+  text-transform: capitalize;
+}
+
+.chart-container {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.evolution-chain {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  background-color: #fbfbfb;
+  justify-content: center;
+
+  & p {
+    text-transform: capitalize;
+  }
+}
+
+.evolution-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 31%;
+  padding: 3rem 0;
+}
+
+.evolution-sprite {
+  width: 77%;
+  object-fit: contain;
+  background-color: #ebfbf1;
+  border-radius: 50%;
+  border: 10px solid white;
+}
+
+.evolution-pic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.arrow {
+  font-size: 24px;
+  align-self: center;
+}
